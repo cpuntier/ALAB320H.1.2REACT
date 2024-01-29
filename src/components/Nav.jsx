@@ -23,7 +23,6 @@ function Nav(props) {
                     <li><a href="...">AdWatch</a></li>
                     <li><a href="...">About</a></li>
                     <li><a href="...">Tips</a></li>
-
                 </ul>
             </nav>
         )

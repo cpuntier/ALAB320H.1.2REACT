@@ -5,7 +5,7 @@ function Article(props) {
             <article>
                 <time datetime="2015-08-07">{props.date}</time>
 
-                <h2>On the Street in Brooklyn</h2>
+                <h2>{props.header}</h2>
                 <img src={props.img_src} alt=""/>
 
                     <p>{props.text}</p>
