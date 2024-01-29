@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header' 
 import Footer from './components/Footer'
@@ -17,8 +15,8 @@ function App() {
   return (
     <>
     <Header/>
-    <Article date = "11/12/2020"  text = {article1} img_src ="src\assets\blog-image-1.jpg" />
-    <Article date = "11/11/2020" text = {article2} img_src = "src\assets\blog-image-2.jpg"/>
+    <Article date = "11/12/2020"  text = {article1} img_src ="/assets/blog-image-1.jpg" />
+    <Article date = "11/11/2020" text = {article2} img_src = "/assets/blog-image-2.jpg"/>
     <Footer/>
     </>
   )
